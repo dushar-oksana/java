@@ -11,12 +11,12 @@ public class House {
         this.length = length;
         this.width = width;
         this.height = height;
-        this. address = address;
+        this.address = address;
         this.owner = owner;
     }
 
     public House(String address, String owner) {
-        this. address = address;
+        this.address = address;
         this.owner = owner;
     }
 
