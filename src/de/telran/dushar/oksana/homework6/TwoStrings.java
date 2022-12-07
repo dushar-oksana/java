@@ -17,6 +17,9 @@ public class TwoStrings {
     }
 
     public static String concatStrings(String s1, String s2) {
+        if (s1.length() <= 1 || s2.length() <= 1) {
+            throw new IllegalArgumentException("Cannot split a string of length < 2");
+        }
         String s1Half = s1.substring(0, takeMiddle(s1)); /*of course second method is optional; I did it to practice
         using method within other method*/
         String s2Half = s2.substring(takeMiddle(s2));
