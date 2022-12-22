@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomNumbers {
     public static void main(String[] args) {
         Random rand = new Random();
-        int number = rand.nextInt(100, 999);
+        int number = rand.nextInt(100, 1000);
         System.out.println(number);
         int max = 0;
         int digit;
